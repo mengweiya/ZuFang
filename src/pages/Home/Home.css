@@ -1,0 +1,19 @@
+
+.box {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+.box .iconfont {
+  font-size: 24px;
+}
+#tab-bar.demo {
+  display: flex;
+  flex-direction: column;
+}
+#tab-bar .demoName {
+  height: 40px;
+}
+#tab-bar .demo-preview-item .am-tab-bar {
+  background-color: white;
+}

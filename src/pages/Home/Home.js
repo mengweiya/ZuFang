@@ -16,12 +16,15 @@ class Home extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      selectedTab: '',
+      selectedTab: this.props.location.pathname,
     };
   }
 
   // 渲染tabBar的组件方法
   renderTabBar = () => {
+    // this.props中提供了很多有用的方法,history中路由跳转的方法和location中很多属性 
+    console.log(this.props);
+
     return (
       <div className='box'>
         <TabBar

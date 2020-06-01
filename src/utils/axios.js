@@ -4,6 +4,9 @@ import axios from 'axios';
 import { Toast } from 'antd-mobile'
 
 // 基础链接
+// const baseUrl = 'https://api-haoke-dev.itheima.net';
+//  ==>出错:是因为后台设置https+这个网址不支持跨域,
+//  ==>解决办法:后台是设置了http+后面的网址是支持的;或者将dev改成web
 const baseUrl = 'https://api-haoke-web.itheima.net';
 // 创建实例
 const connect = axios.create({

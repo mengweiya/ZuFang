@@ -2,10 +2,10 @@
  * 首页导航数据
  */
 // 导航图
-import Nav1 from '../../assets/images/nav-1.png'
-import Nav2 from '../../assets/images/nav-2.png'
-import Nav3 from '../../assets/images/nav-3.png'
-import Nav4 from '../../assets/images/nav-4.png'
+import Nav1 from '../assets/images/nav-1.png'
+import Nav2 from '../assets/images/nav-2.png'
+import Nav3 from '../assets/images/nav-3.png'
+import Nav4 from '../assets/images/nav-4.png'
 
 // 首页栏目导航的数据
 const navs = [

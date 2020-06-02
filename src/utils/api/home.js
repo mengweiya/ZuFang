@@ -15,7 +15,7 @@ export function groupsConnect (area = 'AREA%7C88cff55c-aaa4-e2e0') {
   })
   )
 }
-// 获取租房小组数据
+// 获取最新资讯数据
 export function newsConnect (area = 'AREA%7C88cff55c-aaa4-e2e0') {
   return (connect.get('/home/news', {
     params: { area }

@@ -5,6 +5,10 @@ body {
     background: #fff;
 }
 
+/*  全局样式 */
+#root,.App {
+height: 100%;
+}
 h1,
 h2,
 h3,
